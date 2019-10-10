@@ -12,6 +12,7 @@ namespace ConsoleApp1
         {
             Program app = new Program();
             Console.WriteLine(app.example1());
+            Console.WriteLine(app.example2());
         }
 
 
@@ -20,6 +21,11 @@ namespace ConsoleApp1
         public string example1()
         {
             return "This is an example";
+        }
+
+        public string example2()
+        {
+            return "This is another example";
         }
     }
 }
