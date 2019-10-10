@@ -13,6 +13,7 @@ namespace ConsoleApp1
             Program app = new Program();
             Console.WriteLine(app.example1());
             Console.WriteLine(app.example2());
+            Console.WriteLine(app.return_number(3, 4));
         }
 
 
@@ -31,6 +32,11 @@ namespace ConsoleApp1
         public string example3()
         {
             return "LOL";
+        }
+
+        public int return_number(int a, int b)
+        {
+            return a + b;
         }
     }
 }
