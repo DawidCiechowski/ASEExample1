@@ -10,10 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            string[] b = { "A", "B", "C" };
             Program app = new Program();
             Console.WriteLine(app.example1());
             Console.WriteLine(app.example2());
             Console.WriteLine(app.return_number(3, 4));
+            while (true) { }
         }
 
 
@@ -38,6 +40,12 @@ namespace ConsoleApp1
         {
             return a + b;
         }
+
+        public void z()
+        {
+ 
+        }
+            
     }
 }
 
