@@ -27,6 +27,11 @@ namespace ConsoleApp1
         {
             return "This is another example";
         }
+
+        public string example3()
+        {
+            return "LOL";
+        }
     }
 }
 
